@@ -72,7 +72,7 @@ public class NuevoPacienteActivity extends AppCompatActivity implements View.OnC
         try{
             edad = Integer.parseInt(edadStr);
         }catch (NumberFormatException ex){
-            Toast.makeText(this,"Debe ingresar un número.",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Debe ingresar datos",Toast.LENGTH_SHORT).show();
         }
 
         if (edad>0){
@@ -81,7 +81,7 @@ public class NuevoPacienteActivity extends AppCompatActivity implements View.OnC
             Toast.makeText(this,"Se ha ingresado el paciente correctamente",Toast.LENGTH_SHORT).show();
             finish();
         }else{
-            Toast.makeText(this,"Ingrese una cantidad mayor a cero", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Ingrese datos", Toast.LENGTH_SHORT).show();
         }
     }
 

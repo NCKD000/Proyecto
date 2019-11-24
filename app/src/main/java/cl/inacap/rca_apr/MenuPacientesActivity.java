@@ -12,14 +12,14 @@ import java.util.ArrayList;
 import cl.inacap.rca_apr.modelo.ListaDePacientes;
 import cl.inacap.rca_apr.modelo.Paciente;
 
-public class MainActivity extends AppCompatActivity {
+public class MenuPacientesActivity extends AppCompatActivity {
 
     private ListaDePacientes lista = ListaDePacientes.getInstancia();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_menu_pacientes);
     }
 
     public void verLista(View view){

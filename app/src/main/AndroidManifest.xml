@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListaPacientesActivity"></activity>
+
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".ListaPacientesActivity" />
         <activity android:name=".DetallesPacientesActivity" />
         <activity android:name=".NuevoPacienteActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MenuPacientesActivity" />
+        <activity android:name=".MenuJuegosActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
