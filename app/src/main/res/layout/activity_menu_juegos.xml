@@ -33,7 +33,7 @@
         tools:layout_editor_absoluteX="165dp"
         tools:layout_editor_absoluteY="132dp" />
 
-    <!-- android:onClick="emocional" -->
+    <!-- EMOCIONAL -->
     <Button
         android:id="@+id/emocional"
         android:layout_width="118dp"
@@ -43,6 +43,7 @@
         android:layout_marginTop="218dp"
         android:background="@drawable/emocional"
         android:gravity="center"
+        android:onClick="emocional"
         tools:layout_editor_absoluteX="165dp"
         tools:layout_editor_absoluteY="132dp" />
 

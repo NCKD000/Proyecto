@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/turq2"
+    tools:context=".EmocionalActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        android:text="Reconocimiento Emocional"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/btnCambiar"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/refresh" />
+
+    <ImageView
+        android:id="@+id/emocional"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/r1" />
+
+</RelativeLayout>
