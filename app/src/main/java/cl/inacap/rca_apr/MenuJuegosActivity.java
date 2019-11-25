@@ -1,8 +1,8 @@
 package cl.inacap.rca_apr;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MenuJuegosActivity extends AppCompatActivity {
 
@@ -11,5 +11,5 @@ public class MenuJuegosActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_juegos);
     }
-    //
+
 }
